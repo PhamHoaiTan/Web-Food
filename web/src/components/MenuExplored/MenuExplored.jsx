@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './MenuExplored.css'
 import { menu_list } from '../../assets/frontend_assets/assets'
 const MenuExplored = ({category,setCategory}) => {    
@@ -6,7 +5,7 @@ const MenuExplored = ({category,setCategory}) => {
     
     <div className="explored-menu">
         <h1>Explore our menu</h1>
-        <p className="explore-menu-text">Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satisfy your<br/> carvings and elevate your dining experience, one delicious meal at a time</p>
+        <p className="explore-menu-text">Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satisfy your carvings and elevate your dining experience, one delicious meal at a time</p>
         <div className='explored-menu-list'>
             {   
                 menu_list.map(item =>(
