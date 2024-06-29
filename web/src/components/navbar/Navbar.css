@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.navbar-menu{
+    display: flex;
+    gap: 20px;
+    list-style-type: none   ;
+    font-family: Outfit;
+    align-items: center;
+}
+.navbar-left{
+    display: flex;
+    gap: 20px;
+}
+.navbar-left-button{
+    padding: 10px 20px;
+}
+.navbar-menu li{
+    cursor: pointer;
+}
+.navbar-menu .active{
+    border-bottom: 2px black solid;
+}

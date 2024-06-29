@@ -1,0 +1,25 @@
+.explored-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explored-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    overflow-x: scroll;
+}
+.explored-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.item-menu .active{
+    border-radius: 50%;
+    border: 4px solid #e15f10;
+}
+.item-menu {
+    text-align: center;
+}
+.item-menu img{
+    cursor: pointer;
+}
