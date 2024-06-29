@@ -13,7 +13,8 @@
 }
 .navbar-left{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 30px;
 }
 .navbar-left-button{
     padding: 10px 20px;
